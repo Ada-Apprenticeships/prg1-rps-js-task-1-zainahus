@@ -44,8 +44,11 @@ describe('rockPaperScissors function tests', () => {
         expect(rockPaperScissors('scissors', 'lizard')).toBe('player1');
         expect(rockPaperScissors('lizard', 'paper')).toBe('player1');
         expect(rockPaperScissors('spock', 'rock')).toBe('player1');
+    
         expect(rockPaperScissors('spock', 'scissors')).toBe('player1');
+
         expect(rockPaperScissors('lizard', 'spock')).toBe('player1');
+        
         expect(rockPaperScissors('paper', 'spock')).toBe('player1');
 
     });
